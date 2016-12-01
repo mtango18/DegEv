@@ -1,0 +1,78 @@
+body {
+	background-color: rgba(255,255,255,1);
+}
+
+h1 {
+	margin-top: 35px;
+	text-align: center;
+	font-size: 40px;
+}
+
+#wrapper {
+	margin: 0 auto;
+	background-color: black;
+	height: 70px;
+	width: 10000px;
+	margin-top: -15px;
+	margin-left: -15px;
+	margin-right: 15px;
+}
+
+#toolbar {
+	text-align: center;
+	margin-top: -25px;
+}
+#tool_home, #tool_classes, #tool_info, #tool_about, #tool_logout {
+	color: white;
+	padding: 20px;
+	display: inline;
+}
+
+#buttonwrapper {
+	margin: 0 auto;
+	margin-top: 40px;
+	text-align: center;
+	height: 70px;
+	width: 600px;
+	border-style: solid;
+    	border-width: 5px;
+	line-height: 70px;
+	font-size: 30px;
+	background-color: white;
+}
+
+#leftbutton, #rightbutton {
+	display: inline;
+	width: 50px;
+	height: 50px;
+	border-style: solid;
+	border-width: 5px;
+	font-size: 35px;
+	font-weight: 900;
+	background-color: rgba(255,255,255,1);
+}
+
+#leftbutton {
+	margin-right: 75px;
+	padding-left: 10px;
+}
+#rightbutton {
+	margin-left: 75px;
+	padding-right: 10px;
+	padding-left: 10px;
+}
+
+#fall, #spring {
+
+	margin: 0 auto;
+	margin-top: 50px;
+	margin-left: -4px;
+	width: 600px;
+	height: 400px;
+	border-style: solid;
+	border-width: 5px;
+}
+
+#fall_topwrap, #spring_topwrap {
+	font-size: 30px;
+}
